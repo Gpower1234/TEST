@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/styleBase.css' %}" type="text/css"/>
+
+<nav class="navbar">
+    <div class="logo">BALL</div> 
+    <ul class="nav-links">
+        <div class="menu">
+            <li><p>Football news</p></li> 
+            <li><button><a href="/login">Log out</a></li></button>
+        </div>
+    </ul>
+</nav>    
+
+<div>
+    {% block content %}
+
+    {% endblock content %}
+</div>

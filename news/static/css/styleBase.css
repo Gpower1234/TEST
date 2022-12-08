@@ -1,0 +1,50 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.nav-links a {
+    color: white;
+}
+.logo {
+    font-size: 32px;
+}
+.menu {
+    display: flex;
+    gap: 32em;
+    font-size: 18px;
+}
+.menu button:hover {
+    background-color: blue;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.menu button {
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 25%;
+}
+.menu li p {
+    margin-top: 5px;
+}
+
