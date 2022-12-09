@@ -27,7 +27,7 @@ SECRET_KEY = '@lsm^whx%oaj8nf_=376yfe%5ai6$_xh%^)l=li+cl%%okneql'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
